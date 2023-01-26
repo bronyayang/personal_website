@@ -89,64 +89,44 @@
 
 						<!-- Section on SpOT-->
 						<h2>Image2Point: 3D Point-Cloud Understanding with 2D Image Pretrained Models</h2>
-						<h5> <span style='font-weight: bold;'> Shijia Yang*, Chenfeng Xu*, Tomer Galanti, Bichen Wu, Xiangyu Yue, Bohan Zhai, Wei Zhan, Peter Vajda, Kurt Keutzer, Masayoshi Tomizuka. <b>ECCV 2022. </b> </span>
-</h5>
+						<h5> <span style='font-weight: bold;'> Shijia Yang*, Chenfeng Xu*, Tomer Galanti, Bichen Wu, Xiangyu Yue, Bohan Zhai, Wei Zhan, Peter Vajda, Kurt Keutzer, Masayoshi Tomizuka. <b><p>ECCV 2022.</p></b> </span></h5>
 						<a href="images/image2point.png" class="image fit thumb"><img src="images/image2point.png" alt="" /></a>
 
-						<h4> Abstract:</h4>
-						<h5>3D point-clouds and 2D images are different visual representations of the physical
-							world. While human vision can understand both representations, computer vision
-							models designed for 2D image and 3D point-cloud understanding are quite different.
-							Our paper explores the potential of transferring 2D model architectures and weights
-							to understand 3D point-clouds, by empirically investigating the feasibility of the
-							transfer, the benefits of the transfer, and shedding light on why the transfer works.
-							We discover that we can indeed use the same architecture and pretrained weights
-							of a neural net model to understand both images and point-clouds. Specifically,
-							we transfer the image-pretrained model to a point-cloud model by copying or
-							inflating the weights. We find that finetuning the transformed image-pretrained
-							models (FIP) with minimal efforts — only on input, output, and normalization
-							layers — can achieve competitive performance on 3D point-cloud classification,
-							beating a wide range of point-cloud models that adopt task-specific architectures
-							and use a variety of tricks. When finetuning the whole model, the performance
-							improves even further. Meanwhile, FIP improves data efficiency, reaching up
-							to 10.0 top-1 accuracy percent on few-shot classification. It also speeds up the
-							training of point-cloud models by up to 11.1x for a target accuracy (e.g., 90
-							% accuracy). Lastly, we provide an explanation of the image to point-cloud
-							transfer from the aspect of neural collapse.</h5>
-
-						<h5>
+						
 						<ul class="actions">
 							<li><a href="https://arxiv.org/pdf/2106.04180.pdf" class="button">Paper</a></li>
 							<li><a href="https://github.com/chenfengxu714/image2point" class="button">Code</a></li>
 						</ul>
-						</h5>
 
+						
 						<hr />
 						<h2>Time Will Tell: New Outlooks and A Baseline for Temporal Multi-view 3D Object Detection</h2>
 
-						<h5> <span style='font-weight: bold;'>Jinhyung Park*, Chenfeng Xu*, Shijia Yang, Kurt Keutzer, Kris Kitani, Masayoshi Tomizuka, Wei Zhan. <b>Arxiv. </b> </span>
+						<h5> <span style='font-weight: bold;'>Jinhyung Park*, Chenfeng Xu*, Shijia Yang, Kurt Keutzer, Kris Kitani, Masayoshi Tomizuka, Wei Zhan. <b><p style="color:red;">ICLR 2023 Oral.</p> </b> </span>
 						</h5>
 
 						<a href="images/SOLOFusion.png" class="image fit thumb"><img src="images/SOLOFusion.png" alt="" /></a>
 
-						<h4> Abstract:</h4>
-						<h5>While recent camera-only 3D detection methods leverage multiple timesteps, the
-							limited history they use significantly hampers the extent to which temporal fusion
-							can improve object perception. Observing that existing works’ fusion of multiframe images are instances of temporal stereo matching, we find that performance
-							is hindered by the interplay between 1) the low granularity of matching resolution
-							and 2) the sub-optimal multi-view setup produced by limited history usage. Our
-							theoretical and empirical analysis demonstrates that the optimal temporal difference between views varies significantly for different pixels and depths, making
-							it necessary to fuse many timesteps over long-term history. Building on our investigation, we propose to generate a cost volume from a long history of image
-							observations, compensating for the coarse but efficient matching resolution with
-							a more optimal multi-view matching setup. Further, we augment the per-frame
-							monocular depth predictions used for long-term, coarse matching with short-term,
-							fine-grained matching and find that long and short term temporal fusion are highly
-							complementary. While maintaining high efficiency, our framework sets new state of-the-art on nuScenes, achieving first place on the test set and outperforming previous best art by 5.2% mAP and 3.7% NDS on the validation set.</h5>
+						
+						<ul class="actions">
+							<li><a href="https://arxiv.org/pdf/2210.02443.pdf" class="button">Paper</a></li>
+							<li><a href="https://github.com/Divadi/SOLOFusion" class="button">Code</a></li>
+						</ul>
+						</h5>
 
-							<h5>
+
+						<hr />
+						<h2>Multitask Vision-Language Prompt Tuning</h2>
+
+						<h5> <span style='font-weight: bold;'>Shijia Yang*, Sheng Shen*, Tianjun Zhang*, Bohan Zhai, Joseph E. Gonzalez, Kurt Keutzer, Trevor Darrell. <b><p>Arxiv.</p> </b> </span>
+						</h5>
+
+						<a href="images/MVLPT.png" class="image fit thumb"><img src="images/MVLPT.png" alt="" /></a>
+
+						
 								<ul class="actions">
-									<li><a href="https://arxiv.org/pdf/2210.02443.pdf" class="button">Paper</a></li>
-									<li><a href="https://github.com/Divadi/SOLOFusion" class="button">Code</a></li>
+									<li><a href="https://arxiv.org/pdf/2211.11720.pdf" class="button">Paper</a></li>
+									<li><a href="https://github.com/sIncerass/MVLPT" class="button">Code</a></li>
 								</ul>
 								</h5>
 <!--						<ul class="actions">-->
